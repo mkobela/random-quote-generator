@@ -150,8 +150,8 @@ function printQuote() {
   // but after discussing with "@Lee V" decided this was not necessary.
   document.getElementById('quote-box').innerHTML = quoteHTML;
 
-  // generate a random backgroud color for quote
-  document.getElementById('quote-box').parentElement.style.backgroundColor = getRandomColor();
+  // generate a random background color for new quote
+  document.body.style.backgroundColor = getRandomColor();
 }
 
 // create timer to auto generate quotes every 10 seconds
